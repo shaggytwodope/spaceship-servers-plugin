@@ -1,0 +1,18 @@
+"Updater"
+{
+    "Information"
+    {
+        "Version"
+        {
+            "Latest"    "0.0.2"
+        }
+
+        "Notes" "Changes in 0.0.2:"
+        "Notes" "- added updater, fixed hostname stuff"
+    }
+
+    "Files"
+    {
+        "Plugin"    "Path_SM/plugins/spaceship.smx"
+    }
+}
