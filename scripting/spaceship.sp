@@ -6,7 +6,7 @@
 #undef REQUIRE_PLUGIN
 #include <updater>
 
-#define PLUGIN_VERSION  "0.0.2"
+#define PLUGIN_VERSION  "0.0.3"
 #define UPDATE_URL      "https://raw.githubusercontent.com/stephanieLGBT/spaceship-servers-plugin/master/updatefile.txt"
 
 // bracket color
