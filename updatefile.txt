@@ -4,11 +4,11 @@
     {
         "Version"
         {
-            "Latest"    "0.0.3"
+            "Latest"    "0.0.4"
         }
 
-        "Notes" "Changes in 0.0.3:"
-        "Notes" "- added updater, fixed hostname stuff, testing updater "
+        "Notes" "Changes in 0.0.4:"
+        "Notes" "- fixed accidental printtochatall on player join"
     }
 
     "Files"

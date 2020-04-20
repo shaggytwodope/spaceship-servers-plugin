@@ -6,7 +6,7 @@
 #undef REQUIRE_PLUGIN
 #include <updater>
 
-#define PLUGIN_VERSION  "0.0.3"
+#define PLUGIN_VERSION  "0.0.4"
 #define UPDATE_URL      "https://raw.githubusercontent.com/stephanieLGBT/spaceship-servers-plugin/master/updatefile.txt"
 
 // bracket color
@@ -80,10 +80,10 @@ public Action WelcomeClient(Handle timer, int userid)
     int Cl = GetClientOfUserId(userid);
     if (IsValidClient(Cl))
     {
-        PrintColoredChatAll(sTag ... "Welcome to \x07" ... tColor ... "%s", hostname);
-        PrintColoredChatAll(sTag ... "To turn off cross server IRC chat, type " ... COLOR_GREEN ... "/irc" ... COLOR_DEFAULT ... ".");
-        PrintColoredChatAll(sTag ... "To summon an admin, type " ... COLOR_MEDIUMPURPLE ... "!calladmin" ... COLOR_DEFAULT ... ". " ... COLOR_RED ... "Please note this can and will result in mutes and/or bans if misused!!!");
-        PrintColoredChatAll(sTag ... "To see information about the discord, type " ... COLOR_SKYBLUE ... "!discord" ... COLOR_DEFAULT ... ".");
+        PrintColoredChat(Cl, sTag ... "Welcome to \x07" ... tColor ... "%s", hostname);
+        PrintColoredChat(Cl, sTag ... "To turn off cross server IRC chat, type " ... COLOR_GREEN ... "/irc" ... COLOR_DEFAULT ... ".");
+        PrintColoredChat(Cl, sTag ... "To summon an admin, type " ... COLOR_MEDIUMPURPLE ... "!calladmin" ... COLOR_DEFAULT ... ". " ... COLOR_RED ... "Please note this can and will result in mutes and/or bans if misused!!!");
+        PrintColoredChat(Cl, sTag ... "To see information about the discord, type " ... COLOR_SKYBLUE ... "!discord" ... COLOR_DEFAULT ... ".");
     }
 }
 
